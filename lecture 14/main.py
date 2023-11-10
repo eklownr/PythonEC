@@ -21,3 +21,8 @@ print(squared_numbers)
 print(squared_numbers2)
 print(even_numbers)
 print(resulting_sum)
+
+my_string = " Hello, world! "
+stripped_string = my_string.strip() 
+
+print(stripped_string) 
