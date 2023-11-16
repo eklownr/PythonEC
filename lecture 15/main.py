@@ -8,6 +8,8 @@ for num in numbers:
     squares_loop.append(num**2)
 end_time = time.time()
 
+print(start_time)
+
 print("Time taken for traditional loop: {:.6f} seconds".format(end_time - start_time))
 
 start_time = time.time()
