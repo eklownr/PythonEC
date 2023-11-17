@@ -2,6 +2,7 @@ import time
 
 numbers = list(range(1, 1000001))
 
+# time python loop
 start_time = time.time()
 squares_loop = []
 for num in numbers:
@@ -10,6 +11,7 @@ end_time = time.time()
 
 print("Time taken for traditional loop: {:.6f} seconds".format(end_time - start_time))
 
+# time lambda loop
 start_time = time.time()
 squares_comprehension = [num**2 for num in numbers]
 end_time = time.time()
