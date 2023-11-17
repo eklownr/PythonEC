@@ -72,20 +72,20 @@ Image.fromarray(image_array).save("dog.png")
 #plot.imshow(image_array)
 #plot.show()
 
-''' rita en röd ruta 10x10 pixlar, posistion 100x100 '''
+''' rita en röd ruta 100x100 pixlar, posistion 100x100 '''
 image = Image.open("dog.png")
 # pixel_color före:
 pixel_value = image.getpixel((101, 101))
-print(pixel_value)
+print("Pixel färg innan mod ", pixel_value)
 
-for i in range(109):
-    for j in range(10):
+for i in range(100):
+    for j in range(100):
         image.putpixel((100+i, 100+j), new_color)
 
 image.save("changed_dog.png")
 # pixeö_color efter:
 pixel_value = image.getpixel((101, 101))
-print(pixel_value)
+print("Pixel efter mod till röd: ",pixel_value)
 
 
 ## modifiera bilden
