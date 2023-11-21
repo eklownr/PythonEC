@@ -19,6 +19,8 @@ def download_image(url, destination):
 # Function to download a list of images concurrently
 def download_images(urls, destination_folder):
     # Create a thread for each url that for each thread calls on the download_image func!
+
+    # en tråd per url, tråden körs på download_image() och skicka med parameterar
     pass
 
 
