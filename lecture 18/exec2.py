@@ -34,7 +34,7 @@ def main():
         results.append(result_queue.get())
 
     print("Results: ", results)
-
+    print(f"Results joined list:  {results[0] + results[1]}")
 
 if __name__ == "__main__":
     main()
