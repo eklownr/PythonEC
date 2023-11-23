@@ -28,12 +28,12 @@ def print_numbers():
 
 
 total_sum = 0
-i_range = 10000000
+I_RANGE = 10000000
 
 
 def sum_my_numbers():
     global total_sum
-    for i in range(i_range):
+    for i in range(I_RANGE):
         total_sum += 1
 
 
