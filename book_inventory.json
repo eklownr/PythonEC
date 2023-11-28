@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Python for Beginners",
+    "author": "John Doe",
+    "price": 29.99
+  },
+  {
+    "title": "Database Design 101",
+    "author": "Jane Smith",
+    "price": 39.99
+  }
+]
