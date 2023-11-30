@@ -18,7 +18,7 @@ Du kan bli promptad att logga in, ange isf ditt lösenord
 - Skapa en config.py fil i samma directory som din skript fil du kör mot databasen, den kan se ut exempelvis såhär:
 
 DB_HOST = ""
-DB_PORT = 
+DB_PORT = ""
 DB_NAME = ""
 DB_USER = ""
 DB_PASSWORD = ""
